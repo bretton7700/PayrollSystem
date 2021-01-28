@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginDetails</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body style="background-color: darkturquoise;">
+
+    <div class="limiter">
+        <div class="container-login100">
+
+            <div class="wrap-login100">
+                <div id="login" class="container" style="width:500px; height:500px; border: solid black 1px; justify-content:space-between
+    		;overflow: hidden; margin: 20px auto; padding: 20px;
+    		background-image: url('images/bg-01.jpg');">
+
+
+                    <form action="LoginProcess.php" method="post">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h1 style="color:brown;text-align:center;">LoginDetails</h1>
+
+                                    <hr class="mb-3">
+                                    <label for="Login_Name"><b>Login_Name</b></label>
+                                    <input class="form-control" id="Login_Name" type="text" name="Login_Name" required>
+
+                                    <label for="Login_Password"><b>Login_Password</b></label>
+                                    <input class="form-control" id="Login_Password" type="password"
+                                        name="Login_Password" required>
+
+                                    <label for="Login_Rank"><b>Login_Rank</b></label>
+
+                                    <select name="Login_Rank" id="Login_Rank">
+                                        <option value="Admin">Admin</option>
+                                        <option value="Employee">Employee</option>
+                                    </select>
+
+
+                                    <hr class="mb-3">
+                                    <input class="btn btn-success" type="submit" value="Your login"
+                                        name="addEmployee_btn">
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <form action="LoginEdit.php">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-sm-3">
+
+
+
+                                    <input class="btn btn-danger" type="submit" value="EDIT" name="Edit_btn">
+
+                                </div>
+                            </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> LEAVE </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+
+</head>
+
+<body style="background-color: darkturquoise;">
+    <div class="limiter">
+        <div class="container-login100">
+
+            <div class="wrap-login100">
+                <div class="login100-form validate-form" style="width:500px; height:500px;margin: auto;overflow: hidden;margin: 20px auto; padding: 20px;
+         background-image: url('images/bg-01.jpg');">
+
+
+                    <span style="color: brown;text-align: center;" class="login100-form-title p-b-41">
+                        Leave
+                    </span>
+
+                    <form class="form-group" action="leave.php" method="POST">
+                        <label for="Employee_Name"><b>Employee_Name</b></label>
+                        <input id="Employee_Name" type="text" name="Employee_Name" required>
+                        <hr>
+                        <label for="Leave_Start_Date"><b>Leave_Start_Date<b></label>
+                        <input type="date" name="Leave_start_date" id="Leave_start_date">
+                        <hr>
+                        <label for="Leave_End_Date"><b>Leave_End_Date<b></label>
+                        <input type="date" name="Leave_End_Date" id="Leave_End_Date">
+
+                        <hr>
+                        <button type="submit" class="btn btn-success">Leave</button>
+
+
+
+                    </form>
+                    <form action="leaveEdit.php">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-sm-offset-3 col-sm-9 m-t-15">
+
+
+
+                                    <input class="btn btn-danger" id="btn2" type="submit" value="EDIT" name="Edit_btn">
+
+                                </div>
+                            </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

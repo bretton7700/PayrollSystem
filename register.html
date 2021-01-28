@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body style="background-color: darkturquoise;">
+    <div class="limiter">
+        <div class="container-login100">
+
+            <div class="wrap-login100">
+                <div class="login100-form validate-form" style="width:600px; height:500px; border: solid black 1px; justify-content:space-between
+    	;overflow: hidden; margin: 20px auto; padding: 20px;background-image: url('images/bg-01.jpg'); ">
+
+                    <form action="process.php" method="post">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h1 style="color:brown;text-align:center;">Registration</h1>
+
+                                    <hr class="mb-3">
+                                    <label for="Employee_Name"><b>Employee_Name</b></label>
+                                    <input class="form-control" id="Employee_Name" type="text" name="Employee_Name"
+                                        required>
+
+                                    <label for="Department_Name"><b>Department_Name</b></label>
+                                    <input class="form-control" id="EmployeeDepartment_Name" type="text"
+                                        name="Department_Name" required>
+
+                                    <label for="Employee_Email"><b>Email Address</b></label>
+                                    <input class="form-control" id="email" type="email" name="Employee_Email" required>
+
+                                    <label for="Employee_Phone_Number"><b>Employee_Phone_Number</b></label>
+                                    <input class="form-control" id="phonenumber" type="text"
+                                        name="Employee_Phone_Number" required>
+
+
+                                    <hr class="mb-3">
+                                    <input class="btn btn-success" type="submit" value="ADD EMPLOYEE"
+                                        name="addEmployee_btn">
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+
+
+
+                    <form action="admin.php">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-sm-3">
+
+
+
+                                    <input class="btn btn-danger" type="submit" value="EDIT" name="Edit_btn">
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

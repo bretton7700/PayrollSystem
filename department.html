@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body style="background-color: darkturquoise;">
+    <div class="limiter">
+        <div class="container-login100">
+
+            <div class="wrap-login100">
+                <div class="login100-form validate-form" style="width:400px; height:400px; border: solid black 1px; justify-content:space-around
+    	;overflow: hidden; margin:  auto; padding: 20px;background-image: url('images/bg-01.jpg'); ">
+                    <div class="left">
+                        <form class="" action="Department.php">
+                            <div class="row">
+
+                                <div class="col-sm-3">
+                                    <h1 style="color:brown;text-align:center;">Departments</h1>
+
+                                    <label for="Department_Name"><b>Department_Name</b></label>
+                                    <input class="form-control" id="Department_Name" type="text" name="Department_Name"
+                                        required>
+
+                                    <label for="Department_Desc"><b>Department_Desc</b></label>
+                                    <input class="form-control" id="Department_Desc" type="text" name="Department_Desc">
+
+
+
+                                    <hr>
+                                    <input class="btn btn-success" type="submit" value="depts" name="login_btn"
+                                        id="DepButton1">
+
+
+                                </div>
+
+                            </div>
+                    </div>
+                    </form>
+                    <form action="departmentsEdit.php">
+
+                        <div class="row">
+                            <div class="col-sm-3">
+
+
+
+                                <input class="btn btn-danger" type="submit" value="EDIT" name="Edit_btn"
+                                    id="DepButton2">
+
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
